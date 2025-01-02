@@ -16,7 +16,10 @@ echo "$greeting you have to protect whats yours!."
 echo "The name of the shell that is being used is" -$SHELL
 echo "The user ID of the current user is" -$UID
 echo "The name of the current logged in user is" -$USER
-echo "The current user's home directory is -$HOME
+echo "The current user's home directory is" -$HOME
 
-
-
+#using wilcards
+The "*"
+#The asterisk matches zero or more characters in filenames or directories.
+ls *.sh #This would list the files in the directory with the sh extension only
+ls *.txt #This would list the files in the directory that ends with .txt
